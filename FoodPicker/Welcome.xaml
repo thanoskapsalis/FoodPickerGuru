@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="FoodPicker.Views.Welcome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FoodPicker.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#fff6d5">
+
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Welcome.jpg"/>
+        </Grid.Background>
+        
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock/>
+            <Image Source="Assets/logo.png" Height="Auto"/>
+            <TextBlock/>
+            <Button Content="Start Cooking" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click"/>
+        </StackPanel>
+        <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="About_Application"/>
+    </Grid>
+</Page>

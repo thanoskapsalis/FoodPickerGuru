@@ -1,0 +1,1 @@
+C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\FoodPicker.csproj;x64

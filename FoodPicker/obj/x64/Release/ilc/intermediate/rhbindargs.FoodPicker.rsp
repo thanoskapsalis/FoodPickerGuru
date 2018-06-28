@@ -1,0 +1,16 @@
+/osver:6.2
+/appcontainer
+/runtime:mrt100_app
+/eh:clr
+/pdb
+"/nativeLink:C:\Users\Thanos\.nuget\packages\microsoft.net.native.compiler\1.7.1\tools\x64\ilc\lib\Native\vmath.lib"
+/customImports
+/methodBodyFolding
+"C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\obj\x64\Release\ilc\intermediate\MDIL\FoodPicker.mdilexe"
+"/i:C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\obj\x64\Release\ilc\intermediate\MDIL"
+"/out:C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\obj\x64\Release\ilc\intermediate\Native\FoodPicker.exe"
+"/pdbAltPath:C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\bin\x64\Release\ilc"
+"/res:C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\obj\x64\Release\ilc\intermediate\Native.res"
+"/i:C:\Users\Thanos\.nuget\packages\microsoft.net.native.sharedlibrary-x64\1.7.0\tools\SharedLibrary\ret\MDIL"
+/shimexe
+"/classlib:SharedLibrary"
