@@ -16,12 +16,14 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Source" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
@@ -55,6 +57,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="MinHeight" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="FoodPicker.RecpitPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">

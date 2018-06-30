@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="FoodPicker.Register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FoodPicker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#fff6d5">
+
+    <StackPanel Name="RegisterPanel">
+        <TextBlock Text="Register Here" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="50"/>
+        <TextBlock Text="First Name :"/>
+        <TextBox Name="first" PlaceholderText="First Name" />
+        <TextBlock/>
+        <TextBlock Text="Last Nae :"/>
+        <TextBox Name="last" PlaceholderText="Last Name" />
+        <TextBlock/>
+        <TextBlock Text="E-mail :"/>
+        <TextBox Name="mail" PlaceholderText="E-mail" />
+        <TextBlock/>
+        <TextBlock Text="Password :"/>
+        <PasswordBox Name="password" PlaceholderText="Password" />
+        <TextBlock/>
+        <TextBlock Text="Confirm Password :"/>
+        <PasswordBox Name="password2" PlaceholderText="Confrim Password" />
+        <TextBlock/>
+        <Button Name="reg" Content="Register" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Register_New_User"/>
+        <ProgressRing x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+    </StackPanel>
+</Page>

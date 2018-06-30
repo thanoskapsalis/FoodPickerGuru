@@ -12,14 +12,26 @@
         <Grid.Background>
             <ImageBrush ImageSource="Assets/Welcome.jpg"/>
         </Grid.Background>
-        
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" >
             <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             <TextBlock/>
             <Image Source="Assets/logo.png" Height="Auto"/>
             <TextBlock/>
-            <Button Content="Start Cooking" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click"/>
+            <Button Content="Login" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click"/>
+            <TextBlock/>
+            <Button Content="Register" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Register"/>
         </StackPanel>
-        <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="About_Application"/>
+        <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="About_Application" Grid.Column="0"/>
+        <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="Profile_App" Grid.Column="2"/>
+    
+
+       
     </Grid>
 </Page>

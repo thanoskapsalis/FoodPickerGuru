@@ -31,6 +31,8 @@
             
 
         </StackPanel>
+        <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="AddtoFavorites" Name="AddtoFavoritesN"/>
+        
     </Grid>
    
 

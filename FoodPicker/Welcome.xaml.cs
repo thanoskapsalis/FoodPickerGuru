@@ -29,12 +29,22 @@ namespace FoodPicker.Views
 
         private  void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(SelectPage),true);
+            this.Frame.Navigate(typeof(Login),true);
         }
 
         private void About_Application(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(About_Page), true);
+        }
+
+        private void Register(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Register), true);
+        }
+
+        private void Profile_App(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LoginForProf), true);
         }
     }
 }

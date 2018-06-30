@@ -32,6 +32,15 @@ namespace FoodPicker.Views
         }
         int counter=0;
 
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+
+            var parameters = (Selected)e.Parameter;
+            UserMail.Text=parameters.mail;
+           
+        }
+
         //Code to Select one individual item from a product team once a time//
         private void SelectedSpaghetti(object sender, RoutedEventArgs e)
         {
@@ -88,6 +97,7 @@ namespace FoodPicker.Views
                 selected.ingredient1 = Items[0];
                 selected.ingredient2 = Items[1];
                 selected.ingredient3 = Items[2];
+                selected.mail = UserMail.Text;
 
                
                 this.Frame.Navigate(typeof(RecpitPage), selected);

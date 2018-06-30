@@ -11,5 +11,9 @@ namespace FoodPicker
         public string  ingredient1 { get; set; }
         public string  ingredient2 { get; set; }
         public string  ingredient3 { get; set; }
+        public string  mail { get; set; }
+        public string  title { get; set; }
+
+
     }
 }

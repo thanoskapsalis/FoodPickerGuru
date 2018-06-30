@@ -12,15 +12,27 @@
         <Grid.Background>
             <ImageBrush ImageSource="Assets/Welcome.jpg"/>
         </Grid.Background>
-        
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" >
             <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             <TextBlock/>
             <Image Source="Assets/logo.png" Height="Auto"/>
             <TextBlock/>
-            <Button x:ConnectionId='2' Content="Start Cooking" VerticalAlignment="Center" HorizontalAlignment="Center"                     />
+            <Button x:ConnectionId='3' Content="Login" VerticalAlignment="Center" HorizontalAlignment="Center"                     />
+            <TextBlock/>
+            <Button x:ConnectionId='4' Content="Register" VerticalAlignment="Center" HorizontalAlignment="Center"                 />
         </StackPanel>
-        <AppBarButton x:ConnectionId='1' Content="" FontFamily="Segoe MDL2 Assets" FontSize="21"                          />
+        <AppBarButton x:ConnectionId='1' Content="" FontFamily="Segoe MDL2 Assets" FontSize="21"                           Grid.Column="0"/>
+        <AppBarButton x:ConnectionId='2' Content="" FontFamily="Segoe MDL2 Assets" FontSize="21"                     Grid.Column="2"/>
+    
+
+       
     </Grid>
 </Page>
 

@@ -5,6 +5,7 @@ using Microsoft.WindowsAzure.MobileServices;
 using System.Linq;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
 
 
 
@@ -31,6 +32,7 @@ namespace FoodPicker
             ClassClone.Add(parameters.ingredient1);
             ClassClone.Add(parameters.ingredient2);
             ClassClone.Add(parameters.ingredient3);
+            ClassClone.Add(parameters.mail);
           
             Load_Info();
         }
@@ -80,7 +82,29 @@ namespace FoodPicker
 
         }
 
+        private void AddtoFavorites(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        {
+            IMobileServiceTable<Favorites> addToFavorites = App.MobileService.GetTable<Favorites>();
+            try
+            {
+                Favorites toadd = new Favorites();
+                toadd.mail = ClassClone[3];
+                toadd.title = recipeName.Text;
+                addToFavorites.InsertAsync(toadd);
+                MessageDialog msgDialog = new MessageDialog("Added Succesfully");
+                
+                msgDialog.ShowAsync();
 
+            }
+            catch (Exception x)
+            {
+                MessageDialog message = new MessageDialog("Error");
+                message.ShowAsync();
+            }
+     
+    AddtoFavoritesN.Content = "";
+
+        }
     }
     }
 

@@ -1,1 +1,1 @@
-C:\Users\Thanos\Desktop\FoodPicker\FoodPicker\FoodPicker.csproj;x86
+C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\FoodPicker.csproj;x86

@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="FoodPicker.UserRecipe"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FoodPicker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#fff6d5">
+    <Grid>
+        <ProgressRing x:ConnectionId='1' x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+        <StackPanel x:ConnectionId='2' Name="FirstPanel">
+
+
+
+            <StackPanel Margin="12" HorizontalAlignment="Center">
+                <TextBlock x:ConnectionId='10' Name="recipeName" VerticalAlignment="Center" FontSize="22" Margin="12"/>
+            </StackPanel>
+
+
+
+            <Image x:ConnectionId='3' Name="foodPick" Width="280" Height="280"/>
+            <StackPanel >
+                <TextBlock x:ConnectionId='4' Name="Phase1" Text=""  TextWrapping="Wrap"  />
+                <TextBlock x:ConnectionId='5' Name="Phase2" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='6' Name="Phase3" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='7' Name="Phase4" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='8' Name="Phase5" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='9' Name="Phase6" Text="" TextWrapping="Wrap" />
+            </StackPanel>
+
+
+        </StackPanel>
+        
+    </Grid>
+
+
+
+</Page>
+

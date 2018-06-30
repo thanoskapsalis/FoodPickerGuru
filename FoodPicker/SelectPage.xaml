@@ -10,7 +10,10 @@
 
     <Grid >
 
+       
         <StackPanel x:Name="MainBoard" >
+            <TextBlock Text="User:"/>
+            <TextBlock Name="UserMail"/>
             <TextBlock Text="My Fridge has :" HorizontalAlignment="Center"/>
             
             <TextBlock Text="Grain:" FontWeight="Bold"/>
