@@ -82,27 +82,44 @@ namespace FoodPicker
 
         }
 
-        private void AddtoFavorites(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+        private async void AddtoFavorites (object sender, Windows.UI.Xaml.RoutedEventArgs e)
         {
-            IMobileServiceTable<Favorites> addToFavorites = App.MobileService.GetTable<Favorites>();
-            try
+            var FavCheck = App.MobileService.GetTable<Favorites>();
+            var result = await FavCheck.Where(x => x.title==recipeName.Text && x.mail== ClassClone[3]).ToListAsync();
+            if (result.Count != 0)
             {
-                Favorites toadd = new Favorites();
-                toadd.mail = ClassClone[3];
-                toadd.title = recipeName.Text;
-                addToFavorites.InsertAsync(toadd);
-                MessageDialog msgDialog = new MessageDialog("Added Succesfully");
                 
-                msgDialog.ShowAsync();
+                    MessageDialog message = new MessageDialog("Already exists in favorites");
+                    AddtoFavoritesN.Content = "";
+                message.ShowAsync();
+             
+            }
+            else
+            {
+                IMobileServiceTable<Favorites> addToFavorites = App.MobileService.GetTable<Favorites>();
+                try
+                {
+                    Favorites toadd = new Favorites();
+                    toadd.mail = ClassClone[3];
+                    toadd.title = recipeName.Text;
+                    addToFavorites.InsertAsync(toadd);
+                    MessageDialog msgDialog = new MessageDialog("Added Succesfully");
+
+                    msgDialog.ShowAsync();
+
+                }
+                catch (Exception x)
+                {
+                    MessageDialog message = new MessageDialog("Error");
+                    message.ShowAsync();
+                }
+                AddtoFavoritesN.Content = "";
 
             }
-            catch (Exception x)
-            {
-                MessageDialog message = new MessageDialog("Error");
-                message.ShowAsync();
-            }
+
+ 
      
-    AddtoFavoritesN.Content = "";
+
 
         }
     }

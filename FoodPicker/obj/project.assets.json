@@ -30406,11 +30406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stelios\\Desktop\\FoodPickerGuru-master\\FoodPicker\\FoodPicker.csproj",
+      "projectUniqueName": "C:\\Users\\Stelios\\Documents\\GitHub\\FoodPicker\\FoodPicker\\FoodPicker.csproj",
       "projectName": "FoodPicker",
-      "projectPath": "C:\\Users\\Stelios\\Desktop\\FoodPickerGuru-master\\FoodPicker\\FoodPicker.csproj",
+      "projectPath": "C:\\Users\\Stelios\\Documents\\GitHub\\FoodPicker\\FoodPicker\\FoodPicker.csproj",
       "packagesPath": "C:\\Users\\Stelios\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stelios\\Desktop\\FoodPickerGuru-master\\FoodPicker\\obj\\",
+      "outputPath": "C:\\Users\\Stelios\\Documents\\GitHub\\FoodPicker\\FoodPicker\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

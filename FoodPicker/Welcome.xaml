@@ -24,8 +24,18 @@
             <TextBlock/>
             <Image Source="Assets/logo.png" Height="Auto"/>
             <TextBlock/>
-            <Button Content="Login" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click"/>
+           
+            
+            <TextBlock Text="E-mail :"/>
+            <TextBox Name="mail" PlaceholderText="E-mail" />
             <TextBlock/>
+            <TextBlock Text="Password :"/>
+            <PasswordBox Name="password" PlaceholderText="Password" />
+            <TextBlock/>
+            <Button Name="Logme" Content="Login" VerticalAlignment="Center" HorizontalAlignment="Center" Click="LogMeIn"/>
+            <ProgressRing x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+       
+        <TextBlock/>
             <Button Content="Register" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Register"/>
         </StackPanel>
         <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="About_Application" Grid.Column="0"/>

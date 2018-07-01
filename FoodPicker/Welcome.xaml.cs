@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,10 +28,7 @@ namespace FoodPicker.Views
             this.InitializeComponent();
         }
 
-        private  void Button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Login),true);
-        }
+        
 
         private void About_Application(object sender, RoutedEventArgs e)
         {
@@ -45,6 +43,42 @@ namespace FoodPicker.Views
         private void Profile_App(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(LoginForProf), true);
+        }
+
+        Selected mailPass = new Selected();
+
+        private async void LogMeIn(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                LoadingIndicator.IsActive = true;
+                var UserStuff = App.MobileService.GetTable<UserStuff>();
+                var result = await UserStuff.Where(x => x.mail == mail.Text && x.password == password.Password).ToListAsync();
+                if (result.Count == 0)
+                {
+                    MessageDialog message = new MessageDialog("Wrong Username/Password");
+                    mailPass.mail = " ";
+                    message.ShowAsync();
+                    LoadingIndicator.IsActive = false;
+                }
+                else
+                {
+                    mailPass.mail = mail.Text;
+                    this.Frame.Navigate(typeof(SelectPage), mailPass);
+
+                }
+
+
+
+
+            }
+            catch (Exception x)
+            {
+
+            }
+
+
+
         }
     }
 }

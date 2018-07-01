@@ -132,21 +132,29 @@ namespace FoodPicker.FoodPicker_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "FoodPicker.Views.About_Page";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "FoodPicker.RecpitPage";
-            _typeNameTable[4] = "FoodPicker.Views.SelectPage";
-            _typeNameTable[5] = "FoodPicker.Views.Welcome";
+            _typeNameTable[3] = "FoodPicker.LoginForProf";
+            _typeNameTable[4] = "FoodPicker.RecpitPage";
+            _typeNameTable[5] = "FoodPicker.Register";
+            _typeNameTable[6] = "FoodPicker.Views.SelectPage";
+            _typeNameTable[7] = "FoodPicker.User";
+            _typeNameTable[8] = "FoodPicker.UserRecipe";
+            _typeNameTable[9] = "FoodPicker.Views.Welcome";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::FoodPicker.Views.About_Page);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::FoodPicker.RecpitPage);
-            _typeTable[4] = typeof(global::FoodPicker.Views.SelectPage);
-            _typeTable[5] = typeof(global::FoodPicker.Views.Welcome);
+            _typeTable[3] = typeof(global::FoodPicker.LoginForProf);
+            _typeTable[4] = typeof(global::FoodPicker.RecpitPage);
+            _typeTable[5] = typeof(global::FoodPicker.Register);
+            _typeTable[6] = typeof(global::FoodPicker.Views.SelectPage);
+            _typeTable[7] = typeof(global::FoodPicker.User);
+            _typeTable[8] = typeof(global::FoodPicker.UserRecipe);
+            _typeTable[9] = typeof(global::FoodPicker.Views.Welcome);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -182,9 +190,13 @@ namespace FoodPicker.FoodPicker_XamlTypeInfo
         }
 
         private object Activate_0_About_Page() { return new global::FoodPicker.Views.About_Page(); }
-        private object Activate_3_RecpitPage() { return new global::FoodPicker.RecpitPage(); }
-        private object Activate_4_SelectPage() { return new global::FoodPicker.Views.SelectPage(); }
-        private object Activate_5_Welcome() { return new global::FoodPicker.Views.Welcome(); }
+        private object Activate_3_LoginForProf() { return new global::FoodPicker.LoginForProf(); }
+        private object Activate_4_RecpitPage() { return new global::FoodPicker.RecpitPage(); }
+        private object Activate_5_Register() { return new global::FoodPicker.Register(); }
+        private object Activate_6_SelectPage() { return new global::FoodPicker.Views.SelectPage(); }
+        private object Activate_7_User() { return new global::FoodPicker.User(); }
+        private object Activate_8_UserRecipe() { return new global::FoodPicker.UserRecipe(); }
+        private object Activate_9_Welcome() { return new global::FoodPicker.Views.Welcome(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -211,23 +223,51 @@ namespace FoodPicker.FoodPicker_XamlTypeInfo
                 xamlType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  FoodPicker.RecpitPage
+            case 3:   //  FoodPicker.LoginForProf
                 userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_RecpitPage;
+                userType.Activator = Activate_3_LoginForProf;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  FoodPicker.Views.SelectPage
+            case 4:   //  FoodPicker.RecpitPage
                 userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_SelectPage;
+                userType.Activator = Activate_4_RecpitPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  FoodPicker.Views.Welcome
+            case 5:   //  FoodPicker.Register
                 userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_Welcome;
+                userType.Activator = Activate_5_Register;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  FoodPicker.Views.SelectPage
+                userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_SelectPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  FoodPicker.User
+                userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_User;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  FoodPicker.UserRecipe
+                userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_UserRecipe;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  FoodPicker.Views.Welcome
+                userType = new global::FoodPicker.FoodPicker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_Welcome;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

@@ -14,23 +14,25 @@
        
           
             <StackPanel Margin="12" HorizontalAlignment="Center">
-                <TextBlock x:ConnectionId='10' Name="recipeName" VerticalAlignment="Center" FontSize="22" Margin="12"/>
+                <TextBlock x:ConnectionId='11' Name="recipeName" VerticalAlignment="Center" FontSize="22" Margin="12"/>
             </StackPanel>
       
             
            
-            <Image x:ConnectionId='3' Name="foodPick" Width="280" Height="280"/>
+            <Image x:ConnectionId='4' Name="foodPick" Width="280" Height="280"/>
             <StackPanel >
-                <TextBlock x:ConnectionId='4' Name="Phase1" Text=""  TextWrapping="Wrap"  />
-                <TextBlock x:ConnectionId='5' Name="Phase2" Text="" TextWrapping="Wrap" />
-                <TextBlock x:ConnectionId='6' Name="Phase3" Text="" TextWrapping="Wrap" />
-                <TextBlock x:ConnectionId='7' Name="Phase4" Text="" TextWrapping="Wrap" />
-                <TextBlock x:ConnectionId='8' Name="Phase5" Text="" TextWrapping="Wrap" />
-                <TextBlock x:ConnectionId='9' Name="Phase6" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='5' Name="Phase1" Text=""  TextWrapping="Wrap"  />
+                <TextBlock x:ConnectionId='6' Name="Phase2" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='7' Name="Phase3" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='8' Name="Phase4" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='9' Name="Phase5" Text="" TextWrapping="Wrap" />
+                <TextBlock x:ConnectionId='10' Name="Phase6" Text="" TextWrapping="Wrap" />
             </StackPanel>
             
 
         </StackPanel>
+        <AppBarButton x:ConnectionId='3' Content="" FontFamily="Segoe MDL2 Assets" FontSize="21"                        Name="AddtoFavoritesN"/>
+        
     </Grid>
    
 

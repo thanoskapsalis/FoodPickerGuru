@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>963f848f-49b3-4342-9b7c-311c73c99ce9</PackageIdentityName>
     <PackageIdentityPublisher>CN=Stelios</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>36D618908D29022397CC97A4EC588B9CF4F2E054AC88262CAA3227766BC3CC5E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>963f848f-49b3-4342-9b7c-311c73c99ce9_1.0.0.0_x86__jrff8749zjxn4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>963f848f-49b3-4342-9b7c-311c73c99ce9_jrff8749zjxn4!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-29T11:02:24.938</Modified>
+      <Modified>2018-07-01T11:09:44.087</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\FoodPicker.exe">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\FoodPicker.exe">
       <PackagePath>entrypoint\FoodPicker.exe</PackagePath>
-      <Modified>2018-06-29T11:02:21.118</Modified>
+      <Modified>2018-07-01T11:09:43.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Stelios\.nuget\packages\microsoft.azure.mobile.client\4.0.2\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -535,100 +535,116 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T20:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Background.jpg">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Background.jpg">
       <PackagePath>Assets\Background.jpg</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\bbb.jpg">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\bbb.jpg">
       <PackagePath>Assets\bbb.jpg</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\LogoJPG.jpg">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\LogoJPG.jpg">
       <PackagePath>Assets\LogoJPG.jpg</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Welcome.jpg">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Welcome.jpg">
       <PackagePath>Assets\Welcome.jpg</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-06-28T10:20:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\FoodPicker.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\FoodPicker.xr.xml">
       <PackagePath>FoodPicker.xr.xml</PackagePath>
-      <Modified>2018-06-29T11:02:19.955</Modified>
+      <Modified>2018-07-01T10:47:26.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-06-29T11:02:20.621</Modified>
+      <Modified>2018-07-01T10:59:38.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\About_Page.xbf">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\About_Page.xbf">
       <PackagePath>About_Page.xbf</PackagePath>
-      <Modified>2018-06-29T11:02:20.622</Modified>
+      <Modified>2018-07-01T10:59:38.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\RecpitPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\LoginForProf.xbf">
+      <PackagePath>LoginForProf.xbf</PackagePath>
+      <Modified>2018-07-01T10:59:38.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\RecpitPage.xbf">
       <PackagePath>RecpitPage.xbf</PackagePath>
-      <Modified>2018-06-29T11:02:20.623</Modified>
+      <Modified>2018-07-01T10:59:38.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\SelectPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\Register.xbf">
+      <PackagePath>Register.xbf</PackagePath>
+      <Modified>2018-07-01T10:59:38.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\SelectPage.xbf">
       <PackagePath>SelectPage.xbf</PackagePath>
-      <Modified>2018-06-29T11:02:20.623</Modified>
+      <Modified>2018-07-01T10:59:38.453</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\Welcome.xbf">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\User.xbf">
+      <PackagePath>User.xbf</PackagePath>
+      <Modified>2018-07-01T10:59:38.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\UserRecipe.xbf">
+      <PackagePath>UserRecipe.xbf</PackagePath>
+      <Modified>2018-07-01T10:59:38.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\Welcome.xbf">
       <PackagePath>Welcome.xbf</PackagePath>
-      <Modified>2018-06-29T11:02:20.623</Modified>
+      <Modified>2018-07-01T10:59:38.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T14:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-06-29T11:02:24.335</Modified>
+      <Modified>2018-07-01T10:59:40.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Stelios\Desktop\FoodPickerGuru-master\FoodPicker\bin\x86\Debug\Core\FoodPicker.exe">
+    <AppxPackagedFile Include="C:\Users\Stelios\Documents\GitHub\FoodPicker\FoodPicker\bin\x86\Debug\Core\FoodPicker.exe">
       <PackagePath>FoodPicker.exe</PackagePath>
-      <Modified>2018-06-29T11:02:24.932</Modified>
+      <Modified>2018-07-01T11:09:44.081</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -10,27 +10,30 @@
 
     <Grid >
 
+       
         <StackPanel x:ConnectionId='1' x:Name="MainBoard" >
+            <TextBlock Text="User:"/>
+            <TextBlock x:ConnectionId='2' Name="UserMail"/>
             <TextBlock Text="My Fridge has :" HorizontalAlignment="Center"/>
             
             <TextBlock Text="Grain:" FontWeight="Bold"/>
-            <CheckBox x:ConnectionId='2' x:Name="Spaghetti" Content="Pasta"                             />
-            <CheckBox x:ConnectionId='3' x:Name="Rise" Content="Rise"                        />
+            <CheckBox x:ConnectionId='3' x:Name="Spaghetti" Content="Pasta"                             />
+            <CheckBox x:ConnectionId='4' x:Name="Rise" Content="Rise"                        />
                   
                         
             <TextBlock Text="Meats" FontWeight="Bold" />
-            <CheckBox x:ConnectionId='4'  x:Name="Pork" Content="Pork"                        />
-            <CheckBox x:ConnectionId='5' x:Name="Chicken" Content="Chicken"                          />
+            <CheckBox x:ConnectionId='5'  x:Name="Pork" Content="Pork"                        />
+            <CheckBox x:ConnectionId='6' x:Name="Chicken" Content="Chicken"                          />
             
             
             
             <TextBlock Text="Extra:" FontWeight="Bold"/>
-            <CheckBox x:ConnectionId='6' x:Name="Cheese" Content="Cheese"                         />
-            <CheckBox x:ConnectionId='7' x:Name="Sauce" Content="Sauce"                        />
+            <CheckBox x:ConnectionId='7' x:Name="Cheese" Content="Cheese"                         />
+            <CheckBox x:ConnectionId='8' x:Name="Sauce" Content="Sauce"                        />
             <TextBlock/>
             <TextBlock Text="Choose your material and let the app suggest you some meals !" TextWrapping="Wrap"/>
-            <TextBlock x:ConnectionId='8' x:Name="testtt"/>
-            <Button x:ConnectionId='9' x:Name="Continue" Content="Continue" VerticalAlignment="Center" HorizontalAlignment="Center"              />
+            <TextBlock x:ConnectionId='9' x:Name="testtt"/>
+            <Button x:ConnectionId='10' x:Name="Continue" Content="Continue" VerticalAlignment="Center" HorizontalAlignment="Center"              />
             
 
         </StackPanel>
