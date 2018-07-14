@@ -18,30 +18,42 @@
             <ColumnDefinition Width="auto"></ColumnDefinition>
 
         </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="1" >
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock/>
+                <Image Source="Assets/logo.png" Height="Auto"/>
+                <TextBlock/>
 
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" >
-            <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <TextBlock/>
-            <Image Source="Assets/logo.png" Height="Auto"/>
-            <TextBlock/>
-           
-            
-            <TextBlock Text="E-mail :"/>
-            <TextBox Name="mail" PlaceholderText="E-mail" />
-            <TextBlock/>
-            <TextBlock Text="Password :"/>
-            <PasswordBox Name="password" PlaceholderText="Password" />
-            <TextBlock/>
-            <Button Name="Logme" Content="Login" VerticalAlignment="Center" HorizontalAlignment="Center" Click="LogMeIn"/>
-            <ProgressRing x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
-       
-        <TextBlock/>
-            <Button Content="Register" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Register"/>
-        </StackPanel>
+
+                <TextBlock Text="E-mail :"/>
+                <TextBox Name="mail" PlaceholderText="E-mail" />
+                <TextBlock/>
+                <TextBlock Text="Password :"/>
+                <PasswordBox Name="password" PlaceholderText="Password" />
+                <TextBlock/>
+
+
+                <Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <!--Code here-->
+                        <Button Name="Logme" Content="Login" HorizontalAlignment="Left" Click="LogMeIn"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <!--Code here-->
+                        <Button Content="Register" HorizontalAlignment="Right" Click="Register"/>
+                    </StackPanel>
+                </Grid>
+                <ProgressRing x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+
+                <TextBlock/>
+
+            </StackPanel>
+        </ScrollViewer>
         <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="About_Application" Grid.Column="0"/>
         <AppBarButton Content="" FontFamily="Segoe MDL2 Assets" FontSize="21" Click="Profile_App" Grid.Column="2"/>
-    
 
-       
+
+
     </Grid>
 </Page>

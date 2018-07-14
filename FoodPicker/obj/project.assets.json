@@ -8336,10 +8336,10 @@
           "runtimes/aot/lib/netcore50/System.Runtime.Extensions.dll": {}
         }
       },
-      "runtime.win10-arm64.runtime.native.System.IO.Compression/4.3.1": {
+      "runtime.win10-arm64.runtime.native.System.IO.Compression/4.3.0": {
         "type": "package",
         "native": {
-          "runtimes/win10-arm64/native/clrcompression.dll": {}
+          "runtimes/win10-arm64/native/_._": {}
         }
       },
       "runtime.win7.System.Private.Uri/4.3.0": {
@@ -24328,16 +24328,17 @@
         "runtimes/win10-arm/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-arm64.runtime.native.System.IO.Compression/4.3.1": {
-      "sha512": "w4OW1Ym47LA01gJvH7r6J2v/PrL5QccmNqQtEmhDgGU/iqHU0dWmVaAbWCttctdBzVFZ5hZ6u1BBssJXgmVj4A==",
+    "runtime.win10-arm64.runtime.native.System.IO.Compression/4.3.0": {
+      "sha512": "J85y2vTvDj8S/5xpwnxDh2w8woDqbWAN088LBal+rT2WVxwPeetofpEFbVVCv/q7DT+z4Rv8DTY9rrru7zu+Bw==",
       "type": "package",
-      "path": "runtime.win10-arm64.runtime.native.system.io.compression/4.3.1",
+      "path": "runtime.win10-arm64.runtime.native.system.io.compression/4.3.0",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "runtime.win10-arm64.runtime.native.system.io.compression.4.3.1.nupkg.sha512",
+        "runtime.win10-arm64.runtime.native.system.io.compression.4.3.0.nupkg.sha512",
         "runtime.win10-arm64.runtime.native.system.io.compression.nuspec",
-        "runtimes/win10-arm64/native/clrcompression.dll"
+        "runtimes/win10-arm64/native/_._"
       ]
     },
     "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.0.1": {
@@ -30400,24 +30401,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stelios\\.nuget\\packages\\": {},
+    "C:\\Users\\georg\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stelios\\Documents\\GitHub\\FoodPicker\\FoodPicker\\FoodPicker.csproj",
+      "projectUniqueName": "C:\\Users\\georg\\Source\\Repos\\FoodPickerGuru\\FoodPicker\\FoodPicker.csproj",
       "projectName": "FoodPicker",
-      "projectPath": "C:\\Users\\Stelios\\Documents\\GitHub\\FoodPicker\\FoodPicker\\FoodPicker.csproj",
-      "packagesPath": "C:\\Users\\Stelios\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stelios\\Documents\\GitHub\\FoodPicker\\FoodPicker\\obj\\",
+      "projectPath": "C:\\Users\\georg\\Source\\Repos\\FoodPickerGuru\\FoodPicker\\FoodPicker.csproj",
+      "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\georg\\Source\\Repos\\FoodPickerGuru\\FoodPicker\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stelios\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -30425,6 +30426,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -30474,27 +30476,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "runtime.native.System.IO.Compression 4.3.0 depends on runtime.win10-arm64.runtime.native.System.IO.Compression (>= 4.3.0) but runtime.win10-arm64.runtime.native.System.IO.Compression 4.3.0 was not found. An approximate best match of runtime.win10-arm64.runtime.native.System.IO.Compression 4.3.1 was resolved.",
-      "libraryId": "runtime.win10-arm64.runtime.native.System.IO.Compression",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-arm64-aot"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "runtime.native.System.IO.Compression 4.1.0 depends on runtime.win10-arm64.runtime.native.System.IO.Compression (>= 4.3.0) but runtime.win10-arm64.runtime.native.System.IO.Compression 4.3.0 was not found. An approximate best match of runtime.win10-arm64.runtime.native.System.IO.Compression 4.3.1 was resolved.",
-      "libraryId": "runtime.win10-arm64.runtime.native.System.IO.Compression",
-      "targetGraphs": [
-        "UAP,Version=v10.0.10586/win10-arm64-aot"
-      ]
-    }
-  ]
+  }
 }

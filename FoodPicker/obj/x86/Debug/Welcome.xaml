@@ -18,31 +18,43 @@
             <ColumnDefinition Width="auto"></ColumnDefinition>
 
         </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="1" >
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock/>
+                <Image Source="Assets/logo.png" Height="Auto"/>
+                <TextBlock/>
 
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" >
-            <TextBlock Text="Welcome to :" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <TextBlock/>
-            <Image Source="Assets/logo.png" Height="Auto"/>
-            <TextBlock/>
-           
-            
-            <TextBlock Text="E-mail :"/>
-            <TextBox x:ConnectionId='3' Name="mail" PlaceholderText="E-mail" />
-            <TextBlock/>
-            <TextBlock Text="Password :"/>
-            <PasswordBox x:ConnectionId='4' Name="password" PlaceholderText="Password" />
-            <TextBlock/>
-            <Button x:ConnectionId='5' Name="Logme" Content="Login" VerticalAlignment="Center" HorizontalAlignment="Center"                />
-            <ProgressRing x:ConnectionId='6' x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
-       
-        <TextBlock/>
-            <Button x:ConnectionId='7' Content="Register" VerticalAlignment="Center" HorizontalAlignment="Center"                 />
-        </StackPanel>
+
+                <TextBlock Text="E-mail :"/>
+                <TextBox x:ConnectionId='3' Name="mail" PlaceholderText="E-mail" />
+                <TextBlock/>
+                <TextBlock Text="Password :"/>
+                <PasswordBox x:ConnectionId='4' Name="password" PlaceholderText="Password" />
+                <TextBlock/>
+
+
+                <Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                        <!--Code here-->
+                        <Button x:ConnectionId='7' Name="Logme" Content="Login" HorizontalAlignment="Left"                />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <!--Code here-->
+                        <Button x:ConnectionId='6' Content="Register" HorizontalAlignment="Right"                 />
+                    </StackPanel>
+                </Grid>
+                <ProgressRing x:ConnectionId='5' x:Name="LoadingIndicator" Width="70" Height="70" MinWidth="40" MinHeight="40" VerticalAlignment="Center" HorizontalAlignment="Center"  />
+
+                <TextBlock/>
+
+            </StackPanel>
+        </ScrollViewer>
         <AppBarButton x:ConnectionId='1' Content="" FontFamily="Segoe MDL2 Assets" FontSize="21"                           Grid.Column="0"/>
         <AppBarButton x:ConnectionId='2' Content="" FontFamily="Segoe MDL2 Assets" FontSize="21"                     Grid.Column="2"/>
-    
 
-       
+
+
     </Grid>
 </Page>
 

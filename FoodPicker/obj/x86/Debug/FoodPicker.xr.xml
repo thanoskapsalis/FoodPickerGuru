@@ -32,6 +32,7 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Orientation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBar" />
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
@@ -59,7 +60,6 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="FoodPicker.Views.About_Page" />
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Name" />
       <RootProperty Name="PlaceholderText" />
@@ -105,6 +105,9 @@
     <RootType FullName="FoodPicker.UserRecipe" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="FoodPicker.Views.Welcome" />
   </Roots.RootTypes>
